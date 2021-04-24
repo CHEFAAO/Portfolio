@@ -15,6 +15,7 @@
   top: 0;
   z-index: 999;
   font-family: "Poppins";
+  overflow: hidden;
 }
 
 .navbar_container {
@@ -36,8 +37,8 @@
 }
 
 .navbar_logo {
-  width: 12px;
-  height: 12px;
+  width: 18px;
+  height: 18px;
 }
 
 .navbar_menu {
@@ -51,7 +52,7 @@
 }
 
 .navbar__links:hover {
-  background: #3d5af1;
+  color: #3d5af1;
   transition: all 0.3 ease;
 }
 
@@ -73,11 +74,8 @@
   font-weight: 600;
   font-size: 12px;
   padding-right: 20px;
+  transition: all 0.5s;
   background: #3d5af1;
-  box-shadow: 0px 22px 80px rgba(0, 0, 0, 0.07),
-    0px 6.63236px 24.1177px rgba(0, 0, 0, 0.0456112),
-    0px 2.75474px 10.0172px rgba(0, 0, 0, 0.035),
-    0px 0.996336px 3.62304px rgba(0, 0, 0, 0.0243888);
 }
 
 .navbar_item {
@@ -161,4 +159,56 @@
     display: block;
     cursor: pointer;
   }
+}
+
+.main {
+  padding: 70px;
+}
+
+.main__container {
+  display: flex;
+  margin: 10 6rem;
+  justify-content: center;
+}
+
+.main h1 {
+  position: absolute;
+  width: 499px;
+  height: 99px;
+  left: 64px;
+  top: 186px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 52px;
+}
+
+.main__img {
+  position: relative;
+  top: 200px;
+}
+
+.main p {
+  color: #a49999;
+  margin: left;
+  width: 50%;
+  padding-top: 180px;
+  word-break: break-all;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.main__btn {
+  background: url(/images/Polygon\ 3.svg) no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  width: 30px;
+  height: 72px;
+  border: none;
+  position: absolute;
+  left: 64px;
+  top: 488px;
 }
