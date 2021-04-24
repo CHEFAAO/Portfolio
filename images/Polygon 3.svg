@@ -1,0 +1,15 @@
+<svg width="64" height="72" viewBox="0 0 64 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="64" height="72" fill="#E5E5E5"/>
+<g id="MacBook - 2" clip-path="url(#clip0)">
+<rect width="1159" height="700" transform="translate(-68 -488)" fill="white"/>
+<path id="Polygon 3" d="M32 0L63.1769 18L63.1769 54L32 72L0.823086 54L0.823086 18L32 0Z" fill="#3D5AF1"/>
+<g id="bx-right-arrow-alt (1) 1">
+<path id="Vector" d="M30.7628 45.2627L33.2372 47.7373L44.9745 36L33.2372 24.2627L30.7628 26.7372L38.2755 34.25H21.5V37.75H38.2755L30.7628 45.2627Z" fill="white"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="1159" height="700" fill="white" transform="translate(-68 -488)"/>
+</clipPath>
+</defs>
+</svg>
